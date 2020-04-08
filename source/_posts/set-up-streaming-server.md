@@ -6,6 +6,7 @@ tags: services
 
 # How to Deploy a streaming server
 
+## Method 1
 What needed:
  - a dedicated server with an static ip address
  - nginx + nginx rtmp module
@@ -14,6 +15,7 @@ What needed:
 
 
 ## Method 2
+TL;DR
  - Set up nginx with rtmp module 
  - Configure nginx with rtmp and HLS
  - Insert videojs script to html to enable streaming player. 
