@@ -11,7 +11,8 @@ What it costs:
  - Raspberry pi 4 = $35
  - 5 micro usb = $8
  
- ![](./build-raspberry-cluster/20200405_001841.jpg) 
- ![](./build-raspberry-cluster/20200405_144500.jpg)
- ![](./build-raspberry-cluster/20200405_181421.jpg)
- ![](./build-raspberry-cluster/20200405_182508.jpg)
+{% asset_img.20200405_001841.jpg %}
+{% asset_img 20200405_144500.jpg %}
+{% asset_img 20200405_182508.jpg %}
+{% asset_img 220200405_182508.jpg %}
+{% asset_img 20200405_181421.jpg) %}
