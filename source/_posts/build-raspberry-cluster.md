@@ -16,3 +16,5 @@ What it costs:
 {% asset_img 20200405_182508.jpg %}
 {% asset_img 20200405_182508.jpg %}
 {% asset_img 20200405_181421.jpg %}
+
+{% img [class names] /path/to/image [100] [100] '"title text" "alt text"' %}

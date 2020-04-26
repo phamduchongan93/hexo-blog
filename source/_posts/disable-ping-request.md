@@ -1,4 +1,8 @@
-# Disable Ping Request From Outside 
+---
+title: Disable Ping Request 
+date: 3-2-2020
+tags: [Linux]
+---
 
 ## Method 1: editing systl.conf
 
@@ -9,11 +13,10 @@ Add the following line to your /etc/sysctl.conf:
 
 net.ipv4.icmp_echo_ignore_all=1
 
-sysctl -p
-
 ```
 
 ## Method2: Using iptables
+
 
 ```
 iptables -I INPUT -p icmp --icmp-type echo-request -j DROP

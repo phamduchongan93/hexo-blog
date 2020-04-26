@@ -1,6 +1,17 @@
-[Disk clone and back up with dd command](dd-for-disk-backup.md)
-[Create bootable usb](create-live-usb.md)
-[Locate files and perform command quickly](find-command.md)
-[Mounting block devices](howto-manage-block-device.md)
-[Find hardware info with Linux command](troubleshoot-hardware.md)
-[Disable Ping Request](disable-ping-request.md)
+---
+title: Task related to Linux
+date: 3/3/2020
+tags: [linux]
+---
+
+* {% post_link dd-for-disk-backup 'Disk clone and back up with dd command' %}
+
+* {% post_link create-live-usb 'Create a bootable usb' %}
+
+* {% post_link find-command 'Locate files anad perform command quickly' %}
+
+* {% post_link howto-manage-block-device 'Mounting block devices' %}
+
+* {% post_link troubleshoot-hardware 'Find hardware info with Link command' %}
+
+* {% post_link disable-ping-request 'Disable Ping Request' %}

@@ -1,4 +1,8 @@
-# Manage Block Device in Linux
+---
+title: Manage Block Device in Linux
+tags: [Linux]
+date: 4/2/2020
+---
 
 ## Wipe The Block Device 
 ```

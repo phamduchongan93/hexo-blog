@@ -26,3 +26,25 @@ If I want to use the hard drive for on going read and write operation as well as
 
 
 
+
+# Setting up the storage pool in Virsh Envirenment
+
+
+What will include:
+ - Create an directory storage pool named 'storage_pool2'
+ - The storges pool with be on a directory. 
+
+1. Locate where the disk is mounted. In my case, I know it's at
+```
+/home/anpham/storage_pool2/external-disk-vm
+```
+2. Use virsh to create a directory-based storage pool. 
+
+```
+virsh pool-define-as storage_pool2  dir - - - - "/home/anpham/storage_pool2/external-disk-vm"
+```
+
+3. Checking and verifying to see if the new pool works
+ - `virsh pool-start storage_pool2` to make the pool active.
+ - `virsh pool-autostart storage_pool2` to autostart the pool.
+ - `virsh pool-list` to view the specs of the pools.

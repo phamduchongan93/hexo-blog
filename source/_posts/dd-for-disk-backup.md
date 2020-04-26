@@ -1,3 +1,10 @@
+
+---
+title: Utilizing dd for disk backup
+date: 2/3/2020
+tags: [Linux]
+---
+
 # Task: Using the the dd command to perform disk imaging and cloning.
 
 As you research around, the dd command is powerful and required proper confident of user. Before performing the operation, I want to address couple thing since these are important factors prior to using the command.

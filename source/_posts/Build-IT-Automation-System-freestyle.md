@@ -1,7 +1,8 @@
 ---
 title: 'Build IT Automation System - freestyle '
 date: 2020-04-08 16:33:56
-tags: automation docker ansible 
+tags: [automation docker ansible]
+categories: [CI/CD]
 ---
 
 # Intro 

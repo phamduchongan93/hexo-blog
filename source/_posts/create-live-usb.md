@@ -1,3 +1,9 @@
+---
+title: Create a live usb via dd command
+date: 2/1/2020
+tags: [Linux]
+---
+
 # Create a live bootable usb from an iso image
 In this task, we will perform it as simple as possible, it only involve wiping the drive and flashing the usb.
 

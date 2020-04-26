@@ -1,3 +1,9 @@
+---
+title: Troubleshoot hardware  in Linux
+date: 2-28-2020
+tags: [linux]
+---
+
 # Find the Info of the Hardware in your System
 
 - `dmidecode`.
@@ -6,6 +12,7 @@
 ## Use case
 - Bios version 
 - System information
+
 ```
 	System Information                                                                                                           
         Manufacturer: Dell Inc.                                                                                              
@@ -18,12 +25,12 @@
 - When you find if you can add another 4G sim card.
 
 ```	
-		Handle 0x0013, DMI type 8, 9 bytes
-		Port Connector Information
-										Internal Reference Designator: JNGFF2 - WLAN/LTE CONN
-										Internal Connector Type: None
-										External Reference Designator: Not Specified
-										External Connector Type: None
+Handle 0x0013, DMI type 8, 9 bytes
+Port Connector Information
+Internal Reference Designator: JNGFF2 - WLAN/LTE CONN
+Internal Connector Type: None
+External Reference Designator: Not Specified
+External Connector Type: None
 ```
 
 # Access `/proc` directory to find info of the hardware	
