@@ -11,7 +11,6 @@ Component:
  - xfs_fsr to defrag
  - xfs_freeze to freeze the file system
 
-
 In short, if I want to use the hard drive for incremental backup, I will pick XFS for my hard drive.
 
 # Formatting ZFS 
@@ -23,9 +22,6 @@ Component:
  - RAID
 
 If I want to use the hard drive for on going read and write operation as well as running VM, ZFS would be the excellence choice. In fact, in the future, I can add more disks to a storage pooling, allowing me to provide the scalability for my system. 
-
-
-
 
 # Setting up the storage pool in Virsh Environment
 

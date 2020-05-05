@@ -1,9 +1,13 @@
 ---
-title: Create data container and mount it to a running container
+title: Create Data Container and Mount It to a Running Container
 date: 2020-04-28 04:52:13
-tags: Linux
+tags: [Linux Docker]
 ---
 
-# Create data container to mount to other container
+# Create Data Container to Mount to other Container
 
-`  ` 
+# Bind the DAta Container to the Running Container 
+
+
+
+	
