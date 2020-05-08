@@ -3,6 +3,8 @@ menu:
   Home: /
   Archives: /archives
   Resume: /upload-resume/resume2.pdf
+  About me: /About-me/index.html
+
 rss: /atom.xml
 
 # Content
