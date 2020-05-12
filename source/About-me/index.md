@@ -20,7 +20,7 @@ Under maintenance
 
 ### Deployment Server 
 
-jenkin.anpham.live
+Link: {% link 'jenkin.anpham.live' http://jenkin.anpham.live  jenkin-server %}
 
 ### Pipeline Build Blog
 
@@ -30,8 +30,3 @@ Link: {% link 'devops.anpham.live' https://devops.anpham.live  'devops.anpham.li
 
 Link: {% link 'oldblog.anpham.live' https://oldblog.anpham.live  oldblog %}
 
-
-<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
-
-
-<div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="dark" data-vanity="an-pham-69a714158"><a class="LI-simple-link" href='https://www.linkedin.com/in/an-pham-69a714158?trk=profile-badge'>An Pham</a></div>
