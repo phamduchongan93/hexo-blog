@@ -20,7 +20,7 @@ Under maintenance
 
 ### Deployment Server 
 
-Under maintenance
+jenkin.anpham.live
 
 ### Pipeline Build Blog
 
