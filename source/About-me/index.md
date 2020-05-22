@@ -21,7 +21,8 @@ Under maintenance
 
 ### Deployment Server 
 
-Link: {% link 'production.anpham.live' http://production.anpham.live:8080  jenkin-server %}
+Cloud Host Link: {% link 'production.anpham.live' http://production.anpham.live:8080  jenkin-server %}
+Personal Host Link: {% link 'jenkin.anpham.live' http://production.anpham.live:8080  jenkin-server %}
 
 ### Pipeline Build Blog
 
