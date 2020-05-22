@@ -5,13 +5,12 @@ tags:
 date: 2020-05-21 08:05:39
 ---
 
-# Note from Linuxacademy
-
+# Note from Linuxacademy (draft)
 
 ## Create an AWS Account, AWS Free Tier, Usage Tracking, and Biling Widget 
 
-* Create Billing Alarm
-* Utilizing for 
+* Create Billing Alarm.
+* Utilizing for Cost analysis.
 
 ## Access Management
 
@@ -41,9 +40,9 @@ Inside the cloud:
 * network Protection
 
 ## AWS and SA Fundamentals (Service Models)
-* IaaS (Infrastructure as Service) - EC2 - (data + application + runtime(python and javascript) + OS)
-* PaaS (Platform as Service) - (Virtualization + Host/Server + Network and Storage + Data Center)
-* SaaS (Software as Service) - email products and serivices, office365 and G suit.
+* IaaS (Infrastructure as Service) - EC2 - (data + application + runtime(python and JavaScript) + OS)
+* PaaS (Platform as Service) - (Virtualisation + Host/Server + Network and Storage + Data Center)
+* SaaS (Software as Service) - email products and services, office365 and G suit.
 
 ## Hight Availability and Fault Tolerance 
 * Fault Tolerance (FT): doesn't affect end user (using load balancer to resolve the issues.
@@ -54,17 +53,23 @@ Inside the cloud:
   - Related to back up operation
     Example: invertal of backup. Backing up hourly or backing up daily. 1 hour RPO is better than 1 day RPO, but will cost more. 
 
-* Recovery Time Objective (RTO) - How long does it to take to recover the service?  the shorter time to recover will cost more. 
+* Recovery Time Objective (RTO) - How long does it to take to recover the service?  The shorter time to recover will cost more. 
 
 ## Scaling
 * There are two type of scaling 
-  - Vertical Scaling: increase the instace, increasing CPU and Memory. There is a limitation of capacity of scaling on the instance. 
-  - Hortizontal Scaling: add another instnces, scaling to infinitively. Using small size instance will save the cost. This scaling need the application support.
+  - Vertical Scaling: increase the instance, increasing CPU and Memory. There is a limitation of capacity of scaling on the instance. 
+  - Horizontal Scaling: add another instances, scaling to infinitely. Using small size instance will save the cost. This scaling need the application support.
 
 ## Tiered Application Design
 * There are 3 tier in Application Design: Presentation + Logic + Data:
   - Presentation: interact with consumer of the application.
   - logic tier: deliver application functionality. 
   - data tier: control interaction with database.
-Theese isolated tier can be developed with horitzontal. For example, one or two instances can hanble presentation.
+
+These isolated tier can be developed with horizontal. For example, one or two instances can handle presentation.
+
+## Encryption
+* Two type of encryption: Asymmetric and Symmetric
+  - Asymmetric: utilizing both private key and public key. 
+  - Symmetric: encrypt a file and decrypt a file.
 
