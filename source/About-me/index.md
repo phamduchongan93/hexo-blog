@@ -25,11 +25,10 @@ Under maintenance
 
 ### Pipeline Build Blog
 
-Link: {% link 'devops.anpham.live' https://devops.anpham.live  'devops.anpham.live' %}
-
+Link: {% link 'devops.anpham.live' https://devops.anpham.live  'devops.anpham.live' %} 
+https://img.shields.io/website?up_message=Online&url=http%3A%2F%2Fjenkin.anpham.live
 ### 2019 Documentation for System Testing
 
-Link: {% link 'oldblog.anpham.live' https://oldblog.anpham.live  oldblog %}
-
-
-
+| Websites                                                                    | Status                                                                                    | 
+| :-------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------- |
+| Link: {% link 'oldblog.anpham.live' https://oldblog.anpham.live  oldblog %} | ![](https://img.shields.io/website?up_message=Online&url=http%3A%2F%2Fjenkin.anpham.live) |
