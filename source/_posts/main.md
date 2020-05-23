@@ -1,7 +1,7 @@
 ---
 title: Task related to Linux
 date: 3/3/2020
-tags: [linux]
+tags: [ linux ]
 ---
 
 * {% post_link dd-for-disk-backup 'Disk clone and back up with dd command' %}

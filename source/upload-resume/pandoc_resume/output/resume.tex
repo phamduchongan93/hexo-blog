@@ -1,0 +1,206 @@
+% Copyright 2013 Christophe-Marie Duquesne <chmd@chmd.fr>
+% Copyright 2014 Mark Szepieniec <http://github.com/mszep>
+% 
+% ConText style for making a resume with pandoc. Inspired by moderncv.
+% 
+% This CSS document is delivered to you under the CC BY-SA 3.0 License.
+% https://creativecommons.org/licenses/by-sa/3.0/deed.en_US
+
+\startmode[*mkii]
+  \enableregime[utf-8]  
+  \setupcolors[state=start]
+\stopmode
+
+\setupcolor[hex]
+\definecolor[titlegrey][h=757575]
+\definecolor[sectioncolor][h=397249]
+\definecolor[rulecolor][h=9cb770]
+
+% Enable hyperlinks
+\setupinteraction[state=start, color=sectioncolor]
+
+\setuppapersize [A4][A4]
+\setuplayout    [width=middle, height=middle,
+                 backspace=20mm, cutspace=0mm,
+                 topspace=10mm, bottomspace=20mm,
+                 header=0mm, footer=0mm]
+
+%\setuppagenumbering[location={footer,center}]
+
+\setupbodyfont[11pt, helvetica]
+
+\setupwhitespace[medium]
+
+\setupblackrules[width=31mm, color=rulecolor]
+
+\setuphead[chapter]      [style=\tfd]
+\setuphead[section]      [style=\tfd\bf, color=titlegrey, align=middle]
+\setuphead[subsection]   [style=\tfb\bf, color=sectioncolor, align=right,
+                          before={\leavevmode\blackrule\hspace}]
+\setuphead[subsubsection][style=\bf]
+
+\setuphead[chapter, section, subsection, subsubsection][number=no]
+
+%\setupdescriptions[width=10mm]
+
+\definedescription
+  [description]
+  [headstyle=bold, style=normal,
+   location=hanging, width=18mm, distance=14mm, margin=0cm]
+
+\setupitemize[autointro, packed]    % prevent orphan list intro
+\setupitemize[indentnext=no]
+
+\setupfloat[figure][default={here,nonumber}]
+\setupfloat[table][default={here,nonumber}]
+
+\setuptables[textwidth=max, HL=none]
+\setupxtable[frame=off,option={stretch,width}]
+
+\setupthinrules[width=15em] % width of horizontal rules
+
+\setupdelimitedtext
+  [blockquote]
+  [before={\setupalign[middle]},
+   indentnext=no,
+  ]
+
+
+\starttext
+
+\section[title={An Pham},reference={an-pham}]
+
+\startplacetable[location=none]
+\startxtable
+\startxtablebody[body]
+\stopxtablebody
+\startxtablefoot[foot]
+\startxrow
+\startxcell Deploying automation for Software Devlopment with Devops and
+Gitops approach. \stopxcell
+\stopxrow
+\stopxtablefoot
+\stopxtable
+\stopplacetable
+
+\subsection[title={Education},reference={education}]
+
+\startdescription{2018-2019 (expected)}
+  {\bf Bachelor, Mangement Information System }; University of Boston
+
+  {\em Major : System Administrator - Information Technoloogy}
+\stopdescription
+
+\subsection[title={Experience},reference={experience}]
+
+{\bf System Engineering Virtual Intern}
+
+Open Learning Exchange, MA, USA Duration: Sept 2019 - Present, 2020 Team
+Size: 12-15 Role Played: QA engineer
+
+\startitemize[packed]
+\item
+  Build and test jitsi meeting application
+\item
+  Provide whitebox and blackbox testing for raspbian images.
+\item
+  Test the CI/CD for container
+\item
+  Code review for bash programs
+\item
+  Debug and program wireless system
+\stopitemize
+
+{\bf AV Techology Support}
+
+Umass Boston, Boston, MA - Perform data entry on daily basis. - Update
+laptop and Workstation of class rooms. - Troubleshoot tickets from ITSM.
+- Responsible for reporting incidents within buildings. - Perform
+installation for Zoom Conference Software.
+
+Software has been used * Ticket system - Service Now * Office 365
+
+\subsection[title={Project},reference={project}]
+
+1 - System Engineer Virtual Intern Skills Used: Rasbian, Docker,
+Vagrant, Bash, NPM.
+
+\starttyping
+Create debian based images that can be controled by android remote apps. The system is used to support a web based e-learning system. The scope of the projects is high and maintained by a experience devops team.  
+\stoptyping
+
+\startitemize[packed]
+\item
+  QA Engineer - add
+\item
+  Docker Pipeline - Link
+\stopitemize
+
+2 - SD Card Burner
+
+3 - Blogging about KVM technology. - Build virtual machine for system
+testing. - Containerize web apps to work with docker.
+
+\subsection[title={Technical
+Experience},reference={technical-experience}]
+
+\startdescription{VM Builder}
+  For items which don't have a clear time ordering, a definition list
+  can be used to have named items.
+
+  \startitemize[packed]
+  \item
+    These items can also contain lists, but you need to mind the
+    indentation levels in the markdown source.
+  \item
+    Second item.
+  \stopitemize
+\stopdescription
+
+\startdescription{Open Source}
+  SD Card Burner
+  \useURL[url1][sd-burner.netify.com][][https://github.com/ole-vi/]\from[url1]
+\stopdescription
+
+\startdescription{Programming Languages}
+  {\bf Bash} Here, we have an itemization, where we only want
+
+  {\bf Python:} Description of your experience with second-lang,
+
+  {\bf LAMP stack} We both know this one's pushing it.
+
+  Nodejs cli module
+\stopdescription
+
+\subsection[title={Skills},reference={skills}]
+
+\startitemize[packed]
+\item
+  Documentation style
+  \startitemize[packed]
+  \item
+    English
+  \item
+    Hexo, markdown static webs
+  \item
+    CI/CD DocOps
+  \stopitemize
+\item
+  Automation and Pipeline
+  \startitemize[packed]
+  \item
+    Automated Build: Jenkins, Gits
+  \item
+    Automated Testing: BATs
+  \item
+    Docker webhook
+  \stopitemize
+\stopitemize
+
+\startblockquote
+\useURL[url2][mailto:an.pham001@umb.edu][][an.pham001@umb.edu]\from[url2]
+• +857 308 6648 •\crlf
+Dorchester, MA 02125
+\stopblockquote
+
+\stoptext

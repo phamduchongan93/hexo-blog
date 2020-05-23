@@ -1,0 +1,179 @@
+% Copyright 2013 Christophe-Marie Duquesne <chmd@chmd.fr>
+% Copyright 2014 Mark Szepieniec <http://github.com/mszep>
+% 
+% ConText style for making a resume with pandoc. Inspired by moderncv.
+% 
+% This CSS document is delivered to you under the CC BY-SA 3.0 License.
+% https://creativecommons.org/licenses/by-sa/3.0/deed.en_US
+
+\startmode[*mkii]
+  \enableregime[utf-8]  
+  \setupcolors[state=start]
+\stopmode
+
+\setupcolor[hex]
+\definecolor[titlegrey][h=757575]
+\definecolor[sectioncolor][h=397249]
+\definecolor[rulecolor][h=9cb770]
+
+% Enable hyperlinks
+\setupinteraction[state=start, color=sectioncolor]
+
+\setuppapersize [A4][A4]
+\setuplayout    [width=middle, height=middle,
+                 backspace=20mm, cutspace=0mm,
+                 topspace=10mm, bottomspace=20mm,
+                 header=0mm, footer=0mm]
+
+%\setuppagenumbering[location={footer,center}]
+
+\setupbodyfont[11pt, helvetica]
+
+\setupwhitespace[medium]
+
+\setupblackrules[width=31mm, color=rulecolor]
+
+\setuphead[chapter]      [style=\tfd]
+\setuphead[section]      [style=\tfd\bf, color=titlegrey, align=middle]
+\setuphead[subsection]   [style=\tfb\bf, color=sectioncolor, align=right,
+                          before={\leavevmode\blackrule\hspace}]
+\setuphead[subsubsection][style=\bf]
+
+\setuphead[chapter, section, subsection, subsubsection][number=no]
+
+%\setupdescriptions[width=10mm]
+
+\definedescription
+  [description]
+  [headstyle=bold, style=normal,
+   location=hanging, width=18mm, distance=14mm, margin=0cm]
+
+\setupitemize[autointro, packed]    % prevent orphan list intro
+\setupitemize[indentnext=no]
+
+\setupfloat[figure][default={here,nonumber}]
+\setupfloat[table][default={here,nonumber}]
+
+\setuptables[textwidth=max, HL=none]
+\setupxtable[frame=off,option={stretch,width}]
+
+\setupthinrules[width=15em] % width of horizontal rules
+
+\setupdelimitedtext
+  [blockquote]
+  [before={\setupalign[middle]},
+   indentnext=no,
+  ]
+
+
+\starttext
+
+\startplacetable[location=none]
+\startxtable
+\startxtablebody[body]
+\startxrow
+\startxcell[align=right] {\bf An Pham} \stopxcell
+\startxcell[align=left] an.pham001@umb.edu \stopxcell
+\stopxrow
+\startxrow
+\startxcell[align=right] {\em LPI Certified System
+Administrator} \stopxcell
+\startxcell[align=left] +857 308 6648 \stopxcell
+\stopxrow
+\startxrow
+\startxcell[align=right]  \stopxcell
+\startxcell[align=left] Boston, MA 02125 \stopxcell
+\stopxrow
+\startxrow
+\startxcell[align=right]  \stopxcell
+\startxcell[align=left] github.com/phamduchongan93 \stopxcell
+\stopxrow
+\startxrow
+\startxcell[align=right]  \stopxcell
+\startxcell[align=left] linkedin.com/in/anphamQA \stopxcell
+\stopxrow
+\stopxtablebody
+\startxtablefoot[foot]
+\startxrow
+\startxcell[align=right]  \stopxcell
+\startxcell[align=left] https://anpham.net \stopxcell
+\stopxrow
+\stopxtablefoot
+\stopxtable
+\stopplacetable
+
+\subsection[title={Qualification},reference={qualification}]
+
+\startitemize[packed]
+\item
+  Have a strong background in Linux Administration
+\item
+  Able to deploy automation for Software Devlopment with Devops and
+  Gitops approach.
+\stopitemize
+
+\subsection[title={Education},reference={education}]
+
+\startdescription{2018-2019}
+  {\bf Bachelor, Mangement Information System }\crlf
+  University of Boston
+\stopdescription
+
+\subsection[title={Experience},reference={experience}]
+
+\startdescription{Sept 2019 - Present}
+  {\bf System Engineering Virtual Intern} {\em Open Learning Exchange,
+  MA, USA}\crlf
+  * Tester for embedded system.\crlf
+  * Perform functional testing and unit testing.\crlf
+  * Build and test Jitsi application to replace Zoom and Google Hang out
+  software.\crlf
+  * Provide Whitebox and Blackbox testing for treehouses software.\crlf
+  * Apply the CI/CD pipeline to build containers.\crlf
+  * Collabrate with team to troubleshoot issues on the company's
+  Github.\crlf
+  * Code review for bash programs.\crlf
+  * Debug and program wireless modules for arm device.\crlf
+  * Patch Debian-Based system for usability.\crlf
+  * Perform integrated testing with ansbile.\crlf
+  * Join Ops team to analyze use case of embeddedd devices.
+\stopdescription
+
+\subsection[title={Technical Projects},reference={technical-projects}]
+
+\startdescription{System based}
+  {\bf SD card burner} Bash utility and module for treehouses system.
+
+  {\bf VM-Builder} Utitlity to deploy VM on Linux envirenment.
+\stopdescription
+
+\startdescription{Web based}
+  {\bf Apache Server} File-downloader server, file sharing solution over
+  internet.
+
+  {\bf Documentation} oldblog.anpham.live \letterbar{} anpham.live
+\stopdescription
+
+\subsection[title={Skills},reference={skills}]
+
+\startitemize[packed]
+\item
+  Knowledge of Git workflows and Unix Like system.
+\item
+  Provisioning system via Ansible.
+\item
+  Practicing key concept of IaC such as Terraform and Ansible.
+\item
+  Experience with CI/CD pipelines.
+\item
+  Scripted cross-platform automation solutions in shell.
+\item
+  Building automate testing in development phase.
+\item
+  Able to deploy virtuatlization (KVM) and containers tech(Docker).
+\item
+  {\bf Programming Languages:} Bash, Javascript (node.js), LAMP stack,
+  Python.
+\stopitemize
+
+\stoptext

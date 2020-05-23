@@ -2,7 +2,7 @@
 menu:
   Home: /
   Archives: /archives
-  Resume: /upload-resume/resume2.pdf
+  Resume:  /upload-resume/pandoc_resume/output/resume-AnPham.pdf
   About me: /About-me/index.html
 
 rss: /atom.xml
