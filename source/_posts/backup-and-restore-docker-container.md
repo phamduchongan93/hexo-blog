@@ -22,3 +22,17 @@ tags: [ docker ]
 ```
  docker load -i <new-name>.tar
 ```
+
+## Optional
+* You can send the container over the cloud by following command
+
+```
+  scp -v <new-namr>.tar root@<remote-server>:<directory_to_store> 
+```
+## Remove the backup from the server 
+Find the image and erase it with `docker rmi` command 
+
+```
+  docker images -a
+  docker rmi <new-name>
+```
