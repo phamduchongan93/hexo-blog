@@ -39,7 +39,7 @@ You can check out what I am building via the links below
 | Websites																																																																																						| Status                                                                                               | 
 | :----------------------------------------------------------------------------------											| :----------------------------------------------------------------------------------------            |
 | Link: {% link 'nextcloud.anpham.live' http://nextcloud.anpham.live  nextcloud %}														| ![](https://img.shields.io/website?up_message=Online&url=http%3A%2F%2Fnextcloud.anpham.live)         |
-| Link: {% link 'jenkin.anpham.live' http://jenkin.anpham.live  jenkin %}																							| ![](https://img.shields.io/website?up_message=Online&url=http%3A%2F%2Fjenkin.anpham.live)            |
+| Link: {% link 'jenkins.anpham.live' http://jenkin.anpham.live  jenkin %}																						| ![](https://img.shields.io/website?up_message=Online&url=http%3A%2F%2Fjenkin.anpham.live)            |
 | Link: {% link 'oldblog.anpham.live' https://oldblog.anpham.live  oldblog %}																			| ![](https://img.shields.io/website?up_message=Online&url=http%3A%2F%2Foldblog.anpham.live)           |
 | Link: {% link 'devops.anpham.live' https://devops.anpham.live  devops %}																						| ![](https://img.shields.io/website?up_message=Online&url=http%3A%2F%2Fdevops.anpham.live)            |
 | Link: {% link 'production.anpham.live' http://production.anpham.live:8080  production %} | ![](https://img.shields.io/website?down_message=Offline&up_message=Online&url=http%3A%2F%2Fproduction.anpham.live) |
