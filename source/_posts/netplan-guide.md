@@ -38,7 +38,7 @@ network:
     wlp2s0:
       dhcp4: no
  					addresses: [192.168.1.100/24]
-  				gateway4: 192.168.1.1
+  '  ''  ''  ''  'gateway4: 192.168.1.1
 	 				nameservers:
 								addresses: [192.168.1.1,8.8.8.8]
 					 access-points:
