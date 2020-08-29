@@ -2,7 +2,8 @@
 title: Performance Monitoring in Linux 
 tags:
   - lpic2
-  - Linux
+  - linux
+
 date: 2020-06-11 02:02:46
 ---
 ## Overview
